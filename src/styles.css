@@ -1,5 +1,5 @@
 html {
-  --primary-color: rgb(230, 59, 26);
+  --primary-color: rgb(0, 119, 204);
 }
 
 header,
@@ -30,7 +30,7 @@ article > p > img {
 }
 
 :not(pre) > code {
-  background-color: hsl(10, 20%, 94%);
+  background-color: rgba(0, 0, 0, 0.1);
   color: var(--primary-color);
   padding: 0 3px;
 }
