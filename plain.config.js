@@ -11,10 +11,10 @@ export default {
   // posts: {
   //   path: "posts",
   // },
-  // components: {
-  //   Article: "src/components/Article.jsx",
-  //   Home: "src/components/Home.jsx",
-  // },
+  components: {
+    Header: "src/components/Header.jsx",
+    Footer: "src/components/Footer.jsx",
+  },
   styles: [
     // You can use http resources for convenient, but it slows down the build.
     // "https://unpkg.com/sanitize.css",
