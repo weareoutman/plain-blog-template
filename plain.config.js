@@ -1,7 +1,10 @@
 // @ts-check
 /** @type {import("plain-blog").SiteConfig} */
 export default {
-  baseUrl: "/plain-blog-template/",
+  // For development use "/"" as baseUrl
+  baseUrl: process.env.NODE_ENV === "development"
+    ? "/"
+    : "/plain-blog-template/",
   site: {
     title: "Plain Blog Template",
     description: "The plain blog builder which emits zero client-side JavaScript. With minimal configuration, your blog will be fast and elegant.",
