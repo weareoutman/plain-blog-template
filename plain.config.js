@@ -11,8 +11,8 @@ export default {
     favicon: "assets/favicon.svg",
     url: "https://weareoutman.github.io/plain-blog-template",
   },
-  // posts: {
-  //   path: "posts",
+  // content: {
+  //   path: "content",
   // },
   components: {
     Header: "src/components/Header.jsx",
