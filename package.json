@@ -7,8 +7,7 @@
     "serve": "serve dist"
   },
   "dependencies": {
-    "plain-blog": "^0.4.0",
-    "prism-themes": "^1.9.0",
+    "plain-blog": "^0.5.1",
     "sanitize.css": "^13.0.0",
     "serve": "^14.2.4"
   }
