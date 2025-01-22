@@ -1,7 +1,7 @@
 // @ts-check
 /** @type {import("plain-blog").SiteConfig} */
 export default {
-  // For development use "/"" as baseUrl
+  // For development use "/" as baseUrl
   baseUrl: process.env.NODE_ENV === "development"
     ? "/"
     : "/plain-blog-template/",
