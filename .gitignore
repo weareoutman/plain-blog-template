@@ -7,3 +7,4 @@ node_modules
 report.*.json
 
 dist
+package-lock.json
