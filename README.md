@@ -6,6 +6,6 @@ View the website this repository generates: [https://weareoutman.github.io/plain
 
 ## Development
 
-1. `npm run dev` or `npm run watch`
+1. `npm run build` or `npm run watch`
 2. `npm run serve`
 3. Open http://localhost:3000/
