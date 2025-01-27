@@ -4,10 +4,12 @@
     "build": "plain-blog",
     "build:ci": "CI=true plain-blog",
     "watch": "node --watch ./node_modules/.bin/plain-blog",
-    "serve": "serve dist"
+    "serve": "serve dist",
+    "start": "concurrently \"npm run watch\" \"npm run serve\""
   },
   "dependencies": {
-    "plain-blog": ">=0.6.1",
+    "concurrently": "^9.1.2",
+    "plain-blog": ">=0.6.5",
     "sanitize.css": "^13.0.0",
     "serve": "^14.2.4"
   }
